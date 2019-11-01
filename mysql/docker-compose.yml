@@ -11,3 +11,4 @@ services:
     environment:
       MYSQL_DATABASE: 'empresa'
       MYSQL_ROOT_PASSWORD: 'q1w2e3r4'
+    network_mode: bridge
